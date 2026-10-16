@@ -1,0 +1,16 @@
+# Python environment
+.venv/
+__pycache__/
+*.py[cod]
+
+# dbt generated files
+dbt_project/target/
+dbt_project/dbt_packages/
+dbt_project/logs/
+logs/
+
+# Credentials
+.env
+profiles.yml
+.env.*
+!.env.example

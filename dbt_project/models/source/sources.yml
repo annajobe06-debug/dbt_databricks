@@ -1,0 +1,16 @@
+# !!! Important: One sources.yml per schema
+version: '2'
+
+sources:
+  - name: source
+    database: dbt_tut_dev  #catalog databricks
+    schema: source # source in databricks
+    tables:
+      - name: fact_sales
+      - name: fact_returns
+      - name: dim_date
+      - name: dim_store
+      - name: dim_product
+      - name: dim_customer
+  
+
